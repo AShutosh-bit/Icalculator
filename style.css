@@ -1,0 +1,117 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container{
+
+    border: 3px solid black;
+    border-radius: 35px;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+    left: 475px;
+    padding: 30px;
+}
+
+body{
+    background: yellowgreen;
+}
+
+input{
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: purple;
+    color: white;
+}
+
+#clearr{
+    position: relative;
+    left: 5px;
+    width: 80%;
+    color: brown;
+   background-color: green;
+}
+
+
+button{
+    color: tomato;
+}
+
+.btn{
+    color: tomato;
+    padding: 12px 15px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive;
+    background-color: red;
+    border: 3px solidm rgb(238, 218, 218);
+    border-radius: 15px;
+}
+
+.r1{
+    position: relative;
+    left: 27px;
+}
+
+.r2{
+    position: relative;
+    left: 27px;
+
+}
+
+.r3{
+    position: relative;
+    left: 27px;
+
+}
+
+.r4{
+    position: relative;
+    left: 27px;
+
+}
+
+.r5{
+    position: relative;
+    left: 27px;
+
+}
+
+::placeholder{
+    color: white;
+}
+
+
+        /* writting Media Quieries */
+
+        /* Media Quiery for desktop */
+
+        /* Media Quiery for Mobile */
+
+        /* Media Quiery for tablets */
+
+@media (max-width: 768px) {
+    h2{
+        color: blue;
+    }
+
+
+    .container{
+        border: 3px solid black;
+        border-radius: 35px;
+        background-color: blue;
+        display: inline-block;
+        position: relative;
+        left: 475px;
+        padding: 30px;
+        width: 300px;
+    }
+}
